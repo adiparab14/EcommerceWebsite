@@ -1,0 +1,16 @@
+{
+  "name": "ecom-favourites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --reporter=html",
+    "test:browser": "npx playwright test --reporter=html --project"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.18.1"
+  }
+}
